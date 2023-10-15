@@ -1,4 +1,4 @@
-// Função para calcular a idade em dias
+//Função para calcular a idade em dias
 function calcularIdadeEmDias(anos, meses, dias) {
     const diasPorAno = 365;
     const diasPorMes = 30;
@@ -9,7 +9,7 @@ function calcularIdadeEmDias(anos, meses, dias) {
     return idadeEmDias;
   }
   
-  // Leitura da idade em anos, meses e dias
+  //Leitura da idade em anos, meses e dias
   const anos = parseInt(prompt("Digite a idade em anos:"));
   const meses = parseInt(prompt("Digite a idade em meses:"));
   const dias = parseInt(prompt("Digite a idade em dias:"));

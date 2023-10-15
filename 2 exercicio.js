@@ -9,3 +9,4 @@ function converterParaReal() {
       document.getElementById("valorReal").textContent = valorReal.toFixed(2);
   }
 }
+
