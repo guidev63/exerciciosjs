@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <button onclick="mudarCor('red')">Clique para mudar a cor</button>
+
+    <button onclick="voltarCor()">Clique para Branco</button>
+
+    <div id="elementoMudarCor">Este elemento será alterado</div>
+
+     <script>
+        function mudarCor(cor) {
+            const elemento = document.getElementById("elementoMudarCor");
+            elemento.style.backgroundColor = cor;
+        }
+
+        function voltarCor() {
+            const elemento = document.getElementById("elementoMudarCor");
+            elemento.style.backgroundColor = "white";
+        }
+     </script>
+</body>
+</html>
