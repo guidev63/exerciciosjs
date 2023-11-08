@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contador de Clique</title>
+</head>
+
+<body>
+    <script>
+        let contador = 0;
+        function contarCliques() {
+            contador++;
+            document.getElementById("contadorCliques").textContent = contador; // corrigido "textcontent" para "textContent"
+        }
+    </script>
+    <button onclick="contarCliques()">Clique aqui</button> <!-- Corrigido "contaarCliques" para "contarCliques" -->
+    <p id="contadorCliques">0</p>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function mostrarOcultar() {
+            const conteudo = document.getElementById("conteudoAdicional");
+            if (conteudo.style.display === "none") { 
+                conteudo.style.display = "block";
+            } else {
+                conteudo.style.display = "none";
+            }
+        }
+    </script>
+    <button onclick="mostrarOcultar()">Mostrar/Ocultar conteúdo</button> 
+    <div id="conteudoAdicional" style="display:none;">Este é o conteúdo adicional que será mostrado/ocultado.</div> 
+</body>
+
+</html>
